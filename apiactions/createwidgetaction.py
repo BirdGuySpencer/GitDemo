@@ -1,4 +1,4 @@
 execute(CreateRequest request):
-	widgetID = request.widgetid
-	widgetName = request.widgetname
+	widgetID = request.id
+	widgetName = request.name
 	return new CreateResponse
